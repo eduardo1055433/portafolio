@@ -1,236 +1,276 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>EDUARDO ZAPATA ACCHO</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous"
-  />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
-  />
-  <link rel="stylesheet" href="css/style.css">
-  <title>EDUARDO ZAPATA ACCHO</title>
-</head>
+  <body>
+    <div class="container">
+      <header id="main-header">
+        <div class="row no-gutters">
+          <div class="col-md-5 col-lg-4">
+            <img src="img/Imagen1.jpg" alt="Eduardo Zapata A." />
+          </div>
 
-<body>
-  <div class="container">
-    <header id="main-header">
-      <div class="row no-gutters">
-        <div class="col-md-5 col-lg-4">
-          <img src="img/Imagen1.jpg" alt="Eduardo Zapata A." />
-        </div>
+          <div class="col-md-7 col-lg-8">
+            <div class="d-flex flex-column">
+              <div class="text-white bg-dark p-5">
+                <div
+                  class="
+                    d-flex
+                    flex-row
+                    justify-content-between
+                    align-items-center
+                  "
+                >
+                  <h1 class="display-4">Eduardo Zapata A.</h1>
+                  <a
+                    href="https://twitter.com/eduardozapatacc"
+                    class="text-white"
+                  >
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/eduardo.zapataaccho.1/"
+                    class="d-none d-md-block text-white"
+                  >
+                    <i class="fab fa-facebook"></i>
+                  </a>
 
-        <div class="col-md-7 col-lg-8">
-          <div class="d-flex flex-column">
-            <div class="text-white bg-dark p-5">
-              <div class="d-flex flex-row justify-content-between align-items-center">
-                <h1 class="display-4">Eduardo Zapata A.</h1>
-                <a href="https://twitter.com/eduardozapatacc" class="text-white">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.facebook.com/eduardo.zapataaccho.1/" class="d-none d-md-block text-white">
-                  <i class="fab fa-facebook"></i>
-                </a>
- 
-                <a href="https://github.com/eduardo1055433" class="text-white">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a
+                  <a
+                    href="https://github.com/eduardo1055433"
+                    class="text-white"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a
                     href="https://www.linkedin.com/in/eduardo-zapata-accho-247402168/"
                     class="text-white"
                   >
                     <i class="fab fa-linkedin"></i>
                   </a>
+                </div>
               </div>
-            </div>
 
-            <p class="lead text-white bg-super-dark p-4 mb-0">Desarrollador de Software - SENATI</p>
-            
-            <nav class="text-white text-center">
-              <ul class="d-flex flex-row align-items-stretch list-unstyled mb-0">
-                <li class="portfolio-item bg-primary p-4" data-toggle="collapse" data-target="#home">
-                  <i class="fas fa-home fa-2x"></i>
-                  <span class="d-none d-sm-block">Home</span>
-                </li>
-                <li class="portfolio-item bg-success p-4" data-toggle="collapse" data-target="#resume">
-                  <i class="fas fa-graduation-cap fa-2x"></i>
-                  <span class="d-none d-sm-block">Experiencia </span>
-                </li>
-                <li class="portfolio-item bg-info p-4" data-toggle="collapse" data-target="#work">
-                  <i class="fas fa-folder-open fa-2x"></i>
-                  <span class="d-none d-sm-block">Trabajos</span>
-                </li>
-                <li class="portfolio-item bg-danger p-4" data-toggle="collapse" data-target="#contact">
-                  <i class="fas fa-envelope fa-2x"></i>
-                  <span class="d-none d-sm-block">Contacto</span>
-                </li>
-              </ul>
-            </nav>
+              <p class="lead text-white bg-super-dark p-4 mb-0">
+                Desarrollador de Software - SENATI
+              </p>
+
+              <nav class="text-white text-center">
+                <ul
+                  class="d-flex flex-row align-items-stretch list-unstyled mb-0"
+                >
+                  <li
+                    class="portfolio-item bg-primary p-4"
+                    data-toggle="collapse"
+                    data-target="#home"
+                  >
+                    <i class="fas fa-home fa-2x"></i>
+                    <span class="d-none d-sm-block">Home</span>
+                  </li>
+                  <li
+                    class="portfolio-item bg-success p-4"
+                    data-toggle="collapse"
+                    data-target="#resume"
+                  >
+                    <i class="fas fa-graduation-cap fa-2x"></i>
+                    <span class="d-none d-sm-block">Experiencia </span>
+                  </li>
+                  <li
+                    class="portfolio-item bg-info p-4"
+                    data-toggle="collapse"
+                    data-target="#work"
+                  >
+                    <i class="fas fa-folder-open fa-2x"></i>
+                    <span class="d-none d-sm-block">Trabajos</span>
+                  </li>
+                  <li
+                    class="portfolio-item bg-danger p-4"
+                    data-toggle="collapse"
+                    data-target="#contact"
+                  >
+                    <i class="fas fa-envelope fa-2x"></i>
+                    <span class="d-none d-sm-block">Contacto</span>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
 
-    <!-- HOME COLLAPSE -->
-    <div id="home" class="collapse show">
-      <div class="card card-body text-white bg-primary p-5">
-        <h2>Bienvenido a mi página personal</h2>
-        <p class="lead">
-          Soy un apasionado de las tecnologías y el software libre , disfruto
+      <!-- HOME COLLAPSE -->
+      <div id="home" class="collapse show">
+        <div class="card card-body text-white bg-primary p-5">
+          <h2>Bienvenido a mi página personal</h2>
+          <p class="lead">
+            Soy un apasionado de las tecnologías y el software libre , disfruto
             de mi profesión por que permite crear cosas para poder facilitar la
             vida de muchas personas.
-        </p>
-      </div>
+          </p>
+        </div>
 
-      <div class="card card-body p-5">
-        <h2>Conocimientos técnicos y habilidades  </h2>
-        <br />
+        <div class="card card-body p-5">
+          <h2>Conocimientos técnicos y habilidades</h2>
+          <br />
 
-        <div class="card card-body bg-primary">
-          <div class="card">
-            <div class="card-header" id="headingOne">
-              <h5 class="mb-0">
-                <button
-                  class="btn btn-success text-uppercase btn-lg btn-block"
-                  data-toggle="collapse"
-                  data-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  Desarrollo FrontEnd (lado del cliente)
-                </button>
-              </h5>
-            </div>
+          <div class="card card-body bg-primary">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button
+                    class="btn btn-success text-uppercase btn-lg btn-block"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Desarrollo FrontEnd (lado del cliente)
+                  </button>
+                </h5>
+              </div>
 
-            <div
-              id="collapseOne"
-              class="collapse show"
-              aria-labelledby="headingOne"
-              data-parent="#accordion"
-            >
-              <div class="card-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    * Html5,Ccs3, Flexbox, Css Grid
-                  </li>
-                  <li class="list-group-item">* Javascript</li>
-                  <li class="list-group-item">
-                    * Responsive Web Design (Diseño adaptable)
-                  </li>
-                  <li class="list-group-item">
-                    * Desarrollo web basado en estándares W3C
-                  </li>
-                  <li class="list-group-item">
-                    * Programas: Sublime text 3, Dreamweaver CC, Photoshop
-                    CS6, Illustrator CS6, Inkscape
-                  </li>
-                  <li class="list-group-item">
-                    * Frameworks: Bootstrap 4,Vue, React ,Angular
-                  </li>
-                  <li class="list-group-item">
-                    * Control de versiones: Git/GitHub
-                  </li>
-                </ul>
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      * Html5,Ccs3, Flexbox, Css Grid
+                    </li>
+                    <li class="list-group-item">* Javascript</li>
+                    <li class="list-group-item">
+                      * Responsive Web Design (Diseño adaptable)
+                    </li>
+                    <li class="list-group-item">
+                      * Desarrollo web basado en estándares W3C
+                    </li>
+                    <li class="list-group-item">
+                      * Programas: Sublime text 3, Dreamweaver CC, Photoshop
+                      CS6, Illustrator CS6, Inkscape
+                    </li>
+                    <li class="list-group-item">
+                      * Frameworks: Bootstrap 4,Vue, React ,Angular
+                    </li>
+                    <li class="list-group-item">
+                      * Control de versiones: Git/GitHub
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingTwo">
-              <h5 class="mb-0">
-                <button
-                  class="
-                    btn btn-success
-                    collapsed
-                    text-uppercase
-                    btn-lg btn-block
-                  "
-                  data-toggle="collapse"
-                  data-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  Desarrollo BackEnd (lado del servidor)
-                </button>
-              </h5>
-            </div>
-            <div
-              id="collapseTwo"
-              class="collapse"
-              aria-labelledby="headingTwo"
-              data-parent="#accordion"
-            >
-              <div class="card-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">* Php , POO, MVC ,Node JS</li>
-                  <li class="list-group-item">
-                    * Base de datos Mysql, PostgreSQL y SQLSERVER
-                  </li>
-                  <li class="list-group-item">
-                    * CMS Wordpress,Joomla,prestashop, CMS personalizado desde
-                    0
-                  </li>
-                  <li class="list-group-item">
-                    * Servidor Web Apache (Xampp)
-                  </li>
-                </ul>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-success
+                      collapsed
+                      text-uppercase
+                      btn-lg btn-block
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Desarrollo BackEnd (lado del servidor)
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">* Php , POO, MVC ,Node JS</li>
+                    <li class="list-group-item">
+                      * Base de datos Mysql, PostgreSQL y SQLSERVER
+                    </li>
+                    <li class="list-group-item">
+                      * CMS Wordpress,Joomla,prestashop, CMS personalizado desde
+                      0
+                    </li>
+                    <li class="list-group-item">
+                      * Servidor Web Apache (Xampp)
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-header" id="headingThree">
-              <h5 class="mb-0">
-                <button
-                  class="
-                    btn btn-success
-                    collapsed
-                    text-uppercase
-                    btn-lg btn-block
-                  "
-                  data-toggle="collapse"
-                  data-target="#collapseThree"
-                  aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  Desarrollo Desktop (computadora personal)
-                </button>
-              </h5>
-            </div>
-            <div
-              id="collapseThree"
-              class="collapse"
-              aria-labelledby="headingThree"
-              data-parent="#accordion"
-            >
-              <div class="card-body">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">
-                    * Tecnologias Microsoft .NET
-                  </li>
-                  <li class="list-group-item">* Java</li>
-                  <li class="list-group-item">* Python</li>
-                  <li class="list-group-item">
-                    * Programas: Visual Studio,Navicat, Putty,Virtual Box, etc
-                  </li>
-                </ul>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button
+                    class="
+                      btn btn-success
+                      collapsed
+                      text-uppercase
+                      btn-lg btn-block
+                    "
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Desarrollo Desktop (computadora personal)
+                  </button>
+                </h5>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordion"
+              >
+                <div class="card-body">
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      * Tecnologias Microsoft .NET
+                    </li>
+                    <li class="list-group-item">* Java</li>
+                    <li class="list-group-item">* Python</li>
+                    <li class="list-group-item">
+                      * Programas: Visual Studio,Navicat, Putty,Virtual Box, etc
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- RESUME COLLAPSE -->
-    <div id="resume" class="collapse">
-      <div class="card card-body text-white bg-success p-5">
-        <h3>Mi Experiencia Profesional</h3>
+      <!-- RESUME COLLAPSE -->
+      <div id="resume" class="collapse">
+        <div class="card card-body text-white bg-success p-5">
+          <h3>Mi Experiencia Profesional</h3>
           <p class="lead">
             Actualmente me encuentro laborando como freelancer. <br />
             Continuamente aprendiendo y adquiriendo nuevas habilidades en
@@ -239,196 +279,258 @@
             Apasionado con el trabajo que realizo, ofreciendo en cada proyecto
             total atención, dedicación, personalización y calidad al cliente.
           </p>
-      </div>
+        </div>
 
-      <div class="card card-body p-5">
-        <h3>Donde he estado trabajando</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit veritatis, aliquid omnis unde ipsum, reiciendis.</p>
-        <div class="card-deck">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Atencion al Cliente</h4>
-              <p class="card-text">
-                Trabaje como vendedor y tambien realice los trabajos de
-                mantenimientos de Computadoras
-              </p>
-              <p class="text-white bg-dark mb-3 p-2">
-                Cargo: Soporte y Mantenimiento de Computadoras
-              </p>
-              <p class="text-white bg-dark mb-3 p-2">
-                Telefone: (19) 99999-9999
-              </p>
+        <div class="card card-body p-5">
+          <h3>Donde he estado trabajando</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+            veritatis, aliquid omnis unde ipsum, reiciendis.
+          </p>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Atencion al Cliente</h4>
+                <p class="card-text">
+                  Trabaje como vendedor y tambien realice los trabajos de
+                  mantenimientos de Computadoras
+                </p>
+                <p class="text-white bg-dark mb-3 p-2">
+                  Cargo: Soporte y Mantenimiento de Computadoras
+                </p>
+                <p class="text-white bg-dark mb-3 p-2">
+                  Telefone: (19) 99999-9999
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Fecha de actuación: 2015 - 2016</h6>
+              </div>
             </div>
-            <div class="card-footer">
-              <h6 class="text-muted">Fecha de actuación: 2015 - 2016</h6>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">SISPLANI E.I.R.L</h4>
+                <p class="card-text">
+                  Desempeñe el cargo de Desarrollador .Net C#, realice junto a
+                  mi equipo de desarrollo sistemas de Ventas, Restaurantes,
+                  Parqueo, Facturación electrónica, Arduino, WordPress, etc.
+                  Desempeñe el cargo Administrador de Base de Datos. Despliegue
+                  de Servidores Locales, Google Cloud, Amazon Cloud. Help Desk.
+                </p>
+                <p class="text-white bg-dark mb-3 p-2">
+                  Cargo: Desarrollador de Software
+                </p>
+                <p class="text-white bg-dark mb-3 p-2">
+                  Telefone: (19) 77777-7777
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Fecha : 2018 - 2021</h6>
+              </div>
             </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">SISPLANI E.I.R.L</h4>
-              <p class="card-text">
-                Desempeñe el cargo de Desarrollador .Net C#, realice junto a
-                mi equipo de desarrollo sistemas de Ventas, Restaurantes,
-                Parqueo, Facturación electrónica, Arduino, WordPress, etc.
-                Desempeñe el cargo Administrador de Base de Datos. Despliegue
-                de Servidores Locales, Google Cloud, Amazon Cloud. Help Desk.
-              </p>
-              <p class="text-white bg-dark mb-3 p-2">
-                Cargo: Desarrollador de Software
-              </p>
-              <p class="text-white bg-dark mb-3 p-2">
-                Telefone: (19) 77777-7777
-              </p>
-            </div>
-            <div class="card-footer">
-              <h6 class="text-muted">Fecha  : 2018 - 2021</h6>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Sistema de Viajes Perú</h4>
-              <p class="card-text">
-                Desarrolle el cargo de Administrador de Paginas CMS para
-                viajes, realice despliegue de páginas web, YoasT SEO, etc.
-              </p>
-              <p class="text-white bg-dark mb-3 p-2">
-                Cargo: PRACTICANTE CMS
-              </p>
-              <p class="text-white bg-dark mb-3 p-2">
-                Telefone: (19) 88888-8888
-              </p>
-            </div>
-            <div class="card-footer">
-              <h6 class="text-muted">Fecha : 2018 - 2018</h6>
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Sistema de Viajes Perú</h4>
+                <p class="card-text">
+                  Desarrolle el cargo de Administrador de Paginas CMS para
+                  viajes, realice despliegue de páginas web, YoasT SEO, etc.
+                </p>
+                <p class="text-white bg-dark mb-3 p-2">
+                  Cargo: PRACTICANTE CMS
+                </p>
+                <p class="text-white bg-dark mb-3 p-2">
+                  Telefone: (19) 88888-8888
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Fecha : 2018 - 2018</h6>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- WORK COLLAPSE -->
-    <div id="work" class="collapse">
-      <div class="card card-body text-white bg-info p-5">
-        <h2>Mis trabajos</h2>
-        <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, nulla.
-        </p>
-      </div>
+      <!-- WORK COLLAPSE -->
+      <div id="work" class="collapse">
+        <div class="card card-body text-white bg-info p-5">
+          <h2>Mis trabajos Realizados</h2>
+        </div>
 
-      <div class="card card-body p-5">
-        <h3>¿Qué he desarrollado?</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis ducimus tempora, cumque soluta repellat amet.
-        </p>
-        <a target="_blank" href="https://www.sisplani.com/">
-          <img width="100%" height="100" class="img-fluid" src="img/sisplani.PNG" alt="First slide">
-        </a>
-        <br>
-        <a target="_blank" href="https://sistemaparqueosiscar.com/">
-          <img width="100%" height="100" class="img-fluid" src="img/parqueosisplani.PNG" alt="First slide">
-        </a>
-        <br>
+        <div class="card card-body p-5">
+          <h3>¿Qué he desarrollado?</h3>
+          <br />
 
-        <a target="_blank" href="https://www.neonhouseled.com/">
-          <img width="100%" height="100%"   src="img/neonhouseled.PNG" alt="First slide">
-        </a>
+          <a target="_blank" href="https://www.sisplani.com/">
+            <img
+              width="100%"
+              height="100"
+              class="img-fluid"
+              src="img/sisplani.PNG"
+              alt="First slide"
+            />
+          </a>
+          <br />
+          <a target="_blank" href="https://sistemaparqueosiscar.com/">
+            <img
+              width="100%"
+              height="100"
+              class="img-fluid"
+              src="img/parqueosisplani.PNG"
+              alt="First slide"
+            />
+          </a>
+          <br />
 
-        <a target="_blank" href="https://www.sisplani.com/puntoventa.php">
-          <img width="100%" height="100%"   src="img/anuncio punto de venta bodega.jpg" alt="First slide">
-        </a>
-        <a target="_blank" href="https://www.sisplani.com/asistencias.php">
-          <img width="100%" height="100%"   src="img/asisatencia.PNG" alt="First slide">
-        </a>
-      </div>
-    </div>
+          <a target="_blank" href="https://www.neonhouseled.com/">
+            <img
+              width="100%"
+              height="100%"
+              src="img/neonhouseled.PNG"
+              alt="First slide"
+            />
+          </a>
 
-    <!-- CONTACT COLLAPSE -->
-    <div id="contact" class="collapse">
-      <div class="card card-body text-white bg-danger py-5">
-        <h2>Contato</h2>
-        <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, culpa.
-        </p>
-      </div>
-
-      <div class="card card-body py-5">
-        <h3>Socilitar um orçamento ou mais informações?</h3>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid illum odit, ut, magni quos molestiae.
-        </p>
-        <form>
-          <div class="form-group">
-            <div class="input-group input-group-lg">
-              <div class="input-group-prepend">
-                <span class="input-group-text text-white bg-danger">
-                  <i class="fas fa-user"></i>
-                </span>
-              </div>
-              <input type="text" class="form-control text-white bg-dark" placeholder="Nome" />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <div class="input-group input-group-lg">
-              <div class="input-group-prepend">
-                <span class="input-group-text text-white bg-danger">
-                  <i class="fas fa-envelope"></i>
-                </span>
-              </div>
-              <input type="email" class="form-control text-white bg-dark" placeholder="Email" />
-            </div>
-          </div>
-
-          <div class="form-group">
-            <div class="input-group input-group-lg">
-              <div class="input-group-prepend">
-                <span class="input-group-text text-white bg-danger">
-                  <i class="fas fa-pencil-alt"></i>
-                </span>
-              </div>
-              <textarea class="form-control text-white bg-dark" placeholder="Mensagem"></textarea>
-            </div>
-          </div>
-
-          <input
-            type="submit"
-            value="Solicitar Contato"
-            class="btn btn-block btn-lg btn-danger"
-          />
-        </form>
-      </div>
-    </div>
-
-    <!-- FOOTER -->
-    <footer id="main-footer" class="text-white bg-dark p-5">
-      <div class="row">
-        <div class="col-md-6">
-          <a href="#" class="btn btn-outline-light">
-            <i class="fas fa-cloud"></i> Descargar CV
+          <a target="_blank" href="https://www.sisplani.com/puntoventa.php">
+            <img
+              width="100%"
+              height="100%"
+              src="img/anuncio punto de venta bodega.jpg"
+              alt="First slide"
+            />
+          </a>
+          <a target="_blank" href="https://www.sisplani.com/asistencias.php">
+            <img
+              width="100%"
+              height="100%"
+              src="img/asisatencia.PNG"
+              alt="First slide"
+            />
           </a>
         </div>
       </div>
-    </footer>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js">
-  </script>
-  <script>
-    // Hide others opened collapse content before open the current
-    $('.portfolio-item').click(function(){
-      $('.collapse').collapse('hide');
-    });
+      <!-- CONTACT COLLAPSE -->
+      <div id="contact" class="collapse">
+        <div class="card card-body text-white bg-danger py-5">
+          <h2>Mis Datos Personales</h2>
+        </div>
 
-    // Add open works image like a modal lightbox
-    $(document).on('click', '[data-toggle="lightbox"]', function(e){
-      e.preventDefault();
-      $(this).ekkoLightbox();
-    });
-  </script>
-</body>
+        <div class="card card-body py-5">
+          <form>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text text-white bg-danger">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control text-white bg-dark"
+                  value="EDUARDO ZAPATA ACCHO"
+                  disabled
+                />
+              </div>
+            </div>
 
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text text-white bg-danger">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input
+                  type="email"
+                  class="form-control text-white bg-dark"
+                  value="eduardo19accho@gmail.com"
+                  disabled
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text text-white bg-danger">
+                    <i class="fas fa-phone"></i>
+                  </span>
+                </div>
+                <input
+                  type="email"
+                  class="form-control text-white bg-dark"
+                  value="981533472-902383656"
+                  disabled
+                />
+              </div>
+            </div>
+
+            <input
+              type="submit"
+              value="Solicitar Contato"
+              class="btn btn-block btn-lg btn-danger"
+            />
+          </form>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer id="main-footer" class="text-white bg-dark p-5">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-outline-light">
+              <i class="fas fa-cloud"></i> Descargar CV
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+     
+
+    <div class="whatsapp">
+      <a href="http://wa.me/+51981533472" target="_blank" title="Contactame por Whatsapp">
+      <img src="https://www.peengler.com/wp-content/uploads/whatsapp.png" alt="WhatsApp" />
+      </a>
+     </div>
+     
+     
+     <div class="facebook">
+      <a href="https://m.me/eduardo.zapataaccho.1" target="_blank" title="Contactame por Messenger">
+      <img src="https://www.peengler.com/wp-content/uploads/messenger.png" alt="Messenger" />
+      </a>
+     </div>
+
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script>
+      // Hide others opened collapse content before open the current
+      $(".portfolio-item").click(function () {
+        $(".collapse").collapse("hide");
+      });
+
+      // Add open works image like a modal lightbox
+      $(document).on("click", '[data-toggle="lightbox"]', function (e) {
+        e.preventDefault();
+        $(this).ekkoLightbox();
+      });
+    </script>
+  </body>
 </html>
